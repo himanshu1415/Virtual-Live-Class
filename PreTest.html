@@ -1,0 +1,74 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>
+            Live Virtual Class
+        </title>
+        <link rel="stylesheet"  type="text/css" href="css/index.css">
+      </head>
+      <body onload="myfunction()" style="background-color:powderblue;">
+          <section>
+          <header > 
+            <script src="js/index.js">
+            </script>
+              <h1><marquee>Live Virtual Class</marquee></h1>
+          </header>
+          <nav>
+
+              <ul >
+                  <h2>
+                  <li> <a href="index.html"> Home </a></li>
+                  <li> <a href="courses.html"> Courses</a> </li>
+                  <li> <a href="gallery.html">Gallery</a></li>
+                  <li> <a href="registration.html">Registration</a></li>
+                  <li> <a href="PreTest.html">Pre Test</a></li>
+                  <li> <a href="Quiz.html">Quiz</a></li>
+                  <li> <a href="contact.html">Contact</a></li>
+                  </h2>
+              </ul>    
+          </nav>
+          <div id="left"  > 
+            <iframe width="320" height="500" src="https://www.youtube.com/embed/gqYSdflvfQk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+           </div>   
+            <div id="middle" align="left" >
+                <form >
+                    <div class="container">
+                      <h1 id="demo" onmouseover="mouseOver()" onmouseout="mouseOut()"> Student Marks</h1>
+                      <hr>
+                      <label for="English"><b>English</b></label>
+                      <input type="number" id="value1" placeholder="00" name="English"  onkeypress="myFunction1()">
+                      <label for="Maths"><b>Maths</b></label>
+                      <input type="number" id="value2" placeholder="00" name="Maths">
+                      <label for="Science"><b>Science</b></label>
+                      <input type="number" id="value3" placeholder="00" name="Science">
+                      <br>
+                      <br>
+                      <label for="Result"><b>Result:</b></label>
+                      <br>
+                      <br>
+                      <b>Total Marks</b>
+                      <input type="number"  id="TotalMarks" readonly name="TotalMarks">
+                      <b>Percentage</b>
+                      <input type="number"  id="Percentage" readonly name="Percentage">
+                      <b>HighestMarks</b>
+                      <input type="number"  id="HighestMarks" readonly name="HighestMarks">
+                      <br>
+                      <input type="button" class="registerbtn" onclick="addNumbers()" value="Result"></input>
+                    </div>
+                  </form>
+            </div>
+            <div id="right">
+                <div id="cf">
+                <img class="bottom" src="Assets/images/ads.jfif" width="400" height="500">
+                 <img  class="top" src="Assets/images/ads1.png" width="400" height="500"/>
+                  </div>
+            </div>
+          </section>
+          <div class="footer">
+            <p>Posted by: Himanshu Dhaka</p>
+            <p>Contact information: <a href="mailto:Himanshu.Dhaka@cognizant.com">Himanshu.Dhaka@cognizant.com</a></p>
+          </div>
+          
+      </body>
+          
+</html>
